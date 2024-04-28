@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var target int
+	var number int
 	fmt.Print("Enter a number: ")
-	fmt.Scan(&target)
+	fmt.Scan(&number)
 
 	sum := 0
-	for sum < target {
+	for sum < number {
 		var num int
-		fmt.Print("Enter an integer value: ")
+		fmt.Print("Enter another number: ")
 		fmt.Scan(&num)
 		sum += num
 	}
